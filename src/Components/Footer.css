@@ -1,0 +1,20 @@
+.fa{
+    margin: 10px;
+    font-size: 1.5em;
+    color: azure;
+}
+
+a:hover{
+    color: rgb(202, 200, 200);
+}
+
+a{
+    text-decoration: none;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
