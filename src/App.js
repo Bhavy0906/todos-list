@@ -64,7 +64,7 @@ function App() {
       <Router>
         <Header title='Todos List' searchBar={false} />
         <Routes>
-          <Route path='/todos-list' element = {
+          <Route path='todos-list' element = {
                   <>
                   <AddTodo addTodo={addTodo} />
                   <Todos todos={[...currentTodos, ...completedTodos]} onDelete={onDelete} onComplete = {onComplete} onUndo = {onUndo} />
